@@ -1,0 +1,17 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.product-list {
+  width: 70%;
+}
+
+
+.basket {
+  width: 30%;
+}
