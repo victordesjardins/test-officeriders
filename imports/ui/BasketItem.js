@@ -10,12 +10,12 @@ export default class Product extends Component {
 
   render() {
     return (
-      <li>
-        {this.props.product.productDescription} x {this.props.product.quantity}
+      <div className="basket-item">
+        {this.props.product.productDescription} x {this.props.product.quantity} : {parseInt(this.props.product.quantity) * this.props.product.price}€
         <button onClick={this.deleteThisItem.bind(this)}>
            &times;
          </button>
-      </li>
+      </div>
     );
   }
 }

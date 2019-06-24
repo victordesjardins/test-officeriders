@@ -7,7 +7,9 @@ class App extends Component {
     return (
       <div className="container">
         <header>
-          <h1>SUNSTREAM</h1>
+          <div className="banner">
+            <h1>Sunny Shop : Toutes ce qu'il vous faut pour l'été</h1>
+          </div>
         </header>
         <div className="flex">
           <ProductList />
